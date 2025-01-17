@@ -3,7 +3,7 @@
 	"short_name": "Mirror",
 	"display": "standalone",
 	"description": "Use your camera as a mirror",
-	"theme_color": "#000000",
+	"theme_color": "transparent",
 	"background_color": "#000000",
 	"start_url": ".",
 	"icons": [
