@@ -27,6 +27,7 @@
     </style>
   </head>
   <body>
+    <div id="error"></div>
     <video id="video">Video stream not available.</video>
 
     <script>
@@ -37,7 +38,9 @@
           video.srcObject = stream;
           video.play();
         })
-        .catch((e) => console.log(e));
+        .catch((e) => {
+          document.getElementById('error').innerText = 'Error';
+        });
     </script>
   </body>
 </html>
