@@ -1,0 +1,16 @@
+{
+	"name": "Mirror",
+	"short_name": "Mirror",
+	"display": "standalone",
+	"description": "Use your camera as a mirror",
+	"theme_color": "#000000",
+	"background_color": "#000000",
+	"start_url": ".",
+	"icons": [
+		{
+			"src": "/icon.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	]
+}
